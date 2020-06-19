@@ -1,0 +1,204 @@
+git -version
+  140  sudo apt install git
+  141  java -version
+  142  sudo apt-get install software-properties-common
+  143  sudo apt-get repository ppa:openjdk-r/ppa
+  144  sudo apt-apt-repository ppa:openjdk-r/ppa
+  145  sudo add-apt-repository ppa:openjdk-r/ppa
+  146  sudo apt-get update
+  147  sudo apt-get install openjdk-11-jdk
+  148  java -version
+  149  poweroff
+  150  git config --global user.name "AdharvKumar"
+  151  git config --global user.email "adharvajayakumar14@gmail.com"
+  152  mkdir TerminalCommands
+  153  cd TerminalCommands/
+  154  git clone https://github.com/edurekavivesh/linux-content.git
+  155  git clone https://github.com/edurekavivekh/linux-content.git
+  156  cd linux-content/
+  157  ls
+  158  poweroff
+  159  git -version
+  160  git --version
+  161  java --version
+  162  ls
+  163  cd TerminalCommands/
+  164  ls
+  165  cd linux-content/
+  166  ls
+  167  linux_chit_sheet.pdf
+  168  ls
+  169  git --version
+  170  java --version
+  171  ls
+  172  ls -la
+  173  ls -l
+  174  ls -a
+  175  ls ~
+  176  cd ~
+  177  ls .
+  178  cd TerminalCommands/
+  179  ls
+  180  cd linux-content/
+  181  ls
+  182  ls .
+  183  ls ..
+  184  cd .
+  185  mkdir temp
+  186  ls
+  187  rmdir temp
+  188  ls
+  189  cd ..
+  190  mkdir temp
+  191  ls
+  192  rm -R temp
+  193  ls
+  194  cd ..
+  195  ls
+  196  cd Pictures/
+  197  ls
+  198  touch a.txt b.txt a.pdf b.pdf
+  199  ls
+  200  mkdir class
+  201  mv a.pdf class/
+  202  mv b.pdf class/
+  203  mv b.txt class/
+  204  mv a.txt class/
+  205  ls
+  206  cd class/
+  207  ls
+  208  cp a.txt c.txt
+  209  ls
+  210  mv a.txt b.txt
+  211  ls
+  212  whereis cp
+  213  history
+  214  where cp
+  215  whereis cp
+  216  ls /bin/
+  217  ls
+  218  touch a.jpg
+  219  ls
+  220  ls -al/bin
+  221  ls -al/bin/
+  222  ls -al /bin
+  223  ls -la /bin
+  224  mkdir ~/QuickLink
+  225  ls
+  226  ls ~/QuickLink/
+  227  ln -s ~/TerminalCommands/linux-content/linux_chit_sheet.pdf ~/QuickLink/
+  228  ls -l ~/QuickLink/
+  229  man ln
+  230  mkdir ~/Quicklink2
+  231  ls ~/Quicklink2/
+  232  ls
+  233  ln -s ~/TerminalCommands/linux-content/linux_chit_sheet.pdf ~/Quicklink2/
+  234  ls -l ~/Quicklink2/
+  235  mkdir --help
+  236  cd 
+  237  cd TerminalCommands/
+  238  cd linux-content/
+  239  ls
+  240  cat access.log 
+  241  less access.log 
+  242  head access.log 
+  243  head -5  access.log 
+  244  tail -5 access.log 
+  245  tail access.log 
+  246  find . -size +5M
+  247  find . -size +5M -name '*.pdf'
+  248  find . -size +5M | grep '.pdf'
+  249  cat data.csv 
+  250  grep CAPTAIN data.csv
+  251  grep -i captain data.csv 
+  252  -i --help
+  253  grep -i --help
+  254  grep -v captain data.csv 
+  255  grep -v CAPTAIN data.csv 
+  256  grep -iv capatain data.csv 
+  257  grep -iv captain data.csv 
+  258  cd ..
+  259  grep /
+  260  find .|grep /
+  261  find . grep /
+  262  ls grep /
+  263  ls | grep /
+  264  ls
+  265  ls | grep /
+  266  ls
+  267  mkdir help
+  268  ls
+  269  ls | grep /
+  270  ls | grep/
+  271  ls | grep '/'
+  272  ls|grep '/'
+  273  ls | grep /
+  274  touch hello.txt
+  275  ls
+  276  ls -p
+  277  ls -p | grep /
+  278  ls -p --help
+  279  du -sh linux-content/
+  280  du -sk linux-content/*
+  281  du -sk linux-content/* | sort 
+  282  du -sk linux-content/* | sort -r 
+  283  find . -type f -empty
+  284  history
+  285  history > commands.txt
+  286  ls
+  287  cat commands.txt 
+  288  exit
+  289  init 0
+  290  apt update
+  291  dpkg configure -a
+  292  pid
+  293  kill pid
+  294  sudo apt update
+  295  su
+  296  history
+  297  sudo apt upgrade
+  298  dpkg
+  299  dpkg --help
+  300  init 0
+  301  ps -elf 
+  302  ps -elf | grep java
+  303  ls
+  304  ps -elf | grep java
+  305  ps -elf
+  306  kill -9 7209
+  307  Hello world
+  308  ps -elf | grep java
+  309  kill -9 7264
+  310  ps -elf
+  311  ps -elf | grep java
+  312  ps -elf | grep java | awk '{print $2}'
+  313  ps -elf | grep java | awk '{print $4}'
+  314  kill -9 ps -elf | grep java | awk '{print $4}'
+  315  kill -9 ps -elf | grep java | awk '{print $4}'`
+  316  ps -elf | grep java | awk '{print $4}'
+  317  kill -9 ps -elf | grep java | awk '{print $4}'`
+
+  318  kill -9 ps -elf | grep java | awk '{print $4}' ~
+  319  kill -9 ps -elf | grep java | awk '{print $4}'`
+  320  kill -9 ps -elf | grep java | awk '{print $4}'~
+  321  mypid = ps -elf | grep java | awk '{print $4}'~
+  322  mypid = ' ps -elf | grep java | awk '{print $4}''
+  323  mypid = 'ps -elf | grep java | awk '{print $4}'
+  324  kill -9 ` ps -elf | grep java | awk '{print $4}'
+  325  kill -9 `ps -elf | grep java | awk '{print $4}'
+  326  mypid='ps -elf | grep java | awk '{print $4}'
+  327  mypid=`ps -elf| grep java|awk '{print $4}'`
+  328  echo $mypid
+  329  kill mypid
+  330  kill -9 mypid
+  331  kill -9 $mypid
+  332  ps -elf| grep java
+  333  ps -elf| grep java | awk'{print $4}'
+  334  ps -elf | grep java
+  335  ps -elf | grep java | awk '{print $4}'
+  336  mypid=`ps -elf | grep java | awk '{print $4}'`
+  337  echo $mypid
+  338  kill -9 $mypid
+  339  kill -9 `ps -elf | grep java | awk '{print $4}'`
+  340  history
+
